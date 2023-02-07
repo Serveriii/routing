@@ -1,9 +1,11 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React, { useState } from 'react'
 
 
 export default function Contact() {
+  
   return (
-    <div>Contact</div>
+      <div>
+        <p>Contact us!</p>
+      </div>
   )
 }

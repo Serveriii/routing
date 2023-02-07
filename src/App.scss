@@ -1,4 +1,6 @@
 
+
+
 .container {
   margin-top: 50px;
 }
@@ -23,12 +25,25 @@ footer {
 #nav {
   margin-bottom: 0!important;
 }
+.clock {
+  color: white;
+  margin: 8px;
+  position: absolute;
+  left: 90%;
+}
 #header {
-  // background-image: url(./banner.png);
-  height: 260px;
+  background-image: url(./Images/Näyttökuva_20230118_131131.png);
+  background-position: cover;
+  background-repeat: no-repeat;
+  background-position-y: -250px;
+  color: black;
+  height: 160px;
   width: 100%;
   background-size: cover;
 }
 .navbar-brand {
   color: red;
+}
+.bg-dark {
+  background-color: #333!important;
 }
